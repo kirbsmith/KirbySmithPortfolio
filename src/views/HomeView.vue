@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-zinc-800 text-gray-200 px-2">
+  <div class="bg-zinc-800 text-gray-200 px-2 h-screen">
     <div class="flex flex-col place-items-center pt-4 pb-8 font-montserrat">
       <h1 class="text-3xl pb-4">Hi, I'm Kirby Smith</h1>
       <img src="../assets/portfolioImage.jpg" alt="Picture of me" class="rounded-full h-64"/>
