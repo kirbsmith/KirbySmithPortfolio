@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-zinc-800 text-gray-200 px-2 h-screen">
+  <div class="bg-zinc-800 text-gray-200 px-2 min-h-screen">
     <div class="flex flex-col place-items-center pt-4 pb-8 font-montserrat">
       <h1 class="text-6xl md:text-8xl lg:text-8xl pt-12 pb-12 md:pb-16 font-thin"><span class="hidden lg:inline">Hi, I'm </span>Kirby Smith</h1>
       <h3 class="text-center font-normal text-xl md:text-2xl pb-12 w-96">A front end developer who can tell you what happens if you fall into a black hole</h3>
