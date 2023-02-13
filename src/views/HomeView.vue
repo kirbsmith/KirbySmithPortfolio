@@ -2,8 +2,19 @@
   <div class="bg-zinc-800 text-gray-200 px-2 min-h-screen">
     <div class="flex flex-col place-items-center pt-4 pb-8 font-montserrat">
       <h1 class="text-6xl md:text-8xl lg:text-8xl pt-12 pb-12 md:pb-16 font-thin"><span class="hidden lg:inline">Hi, I'm </span>Kirby Smith</h1>
-      <h3 class="text-center font-normal text-xl md:text-2xl pb-12 w-96">A front end developer who can tell you what happens if you fall into a black hole</h3>
-      <img src="../assets/portfolioImage.jpg" alt="Picture of me" class="rounded-full h-48 z-50 opacity-80 mb-6"/>
+      <h3 class="text-center font-normal text-xl md:text-2xl pb-12 w-96">Are you looking for a front end developer who can code <span class="underline">and</span> tell you what happens if you fall into a black hole <span class="underline font-bold">AND</span> talk about his cats named Kepler and Luna?</h3>
+      <img src="../assets/portfolioImage.jpg" alt="Picture of me" class="rounded-full h-48 z-50 opacity-80 mb-0"/>
+      <p class="pb-6 text-xs">that's me!</p>
+      <div class="flex flex-col gap-6 place-items-center">
+        <div class="flex flex-row gap-8">
+            <img class="rounded-full h-48" src="../assets/IMG_8026.jpg" alt="">
+            <img class="rounded-full h-48" src="../assets/IMG_7973.jpg" alt="">
+        </div>
+        <div class="flex">
+            <img class="rounded-full h-48" src="../assets/IMG_7998.jpg" alt="">
+        </div>
+        <p class="text-xs pb-6">that's not me!</p>
+      </div>
       <p class="text-center p-4 font-light">After teaching for the past 7 years and completing a full-stack bootcamp, I have been working as a freelance developer with several clients in non-profit, construction, and retail fields. I'm looking to land a full-time front end developer job to bring my skills to a team that will push me to learn more everyday.</p>
     </div>
     <div class="flex flex-col place-items-center font-montserrat font-light gap-4 pb-6">
