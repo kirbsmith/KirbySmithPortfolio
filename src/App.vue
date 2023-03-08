@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-col place-items-center py-4 bg-slate-500 text-zinc-100 font-light text-2xl font-montserrat">
+  <nav class="flex flex-col place-items-center py-4 bg-slate-500 text-zinc-100 font-light text-2xl font-montserrat hidden md:flex">
     <div>
       <router-link to="/" class="px-4">Home</router-link> 
     </div>
