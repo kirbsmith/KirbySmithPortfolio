@@ -4,6 +4,7 @@
         <div class="flex justify-center">
             <img src="../assets/portfolioImage.jpg" alt="Headshot image of me" class="w-5/6 rounded-xl my-8">
         </div>
+        <a href="https://ksmith.netlify.app/assets/plantid.png">Resume</a>
         <div class="flex flex-col gap-12 mb-4">
             <h1 class="text-3xl">Hi, I'm Kirby, an Astronomy Teacher Turned Software Engineer</h1>
             <h3 class="text-xl">Want an efficient engineer who can tell you what happens if you fall into a black hole?</h3>
