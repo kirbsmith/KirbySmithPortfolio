@@ -1,15 +1,19 @@
 <template>
-    <div class="bg-zinc-800 text-gray-200 px-6 min-h-screen pt-6 font-thin md:flex md:flex-col">
-        <div class="md:flex md:flex-row-reverse md:place-content-center md:place-items-center md:gap-24">
-            <img src="../assets/portfolioImage.jpg" alt="Headshot image of me" class="w-5/6 md:w-1/2 rounded-xl my-8">
-            <h1 class="text-4xl font-thin">About Me</h1>
-        </div>
-        <p class="py-6">I love learning new things!</p>
-        <p class="py-2">I am always trying to think of different ways to solve problems. At the start of the pandemic, I designed, programmed, and built my own 3D printer and CNC. I spend my free time learning new code, doing house renovation projects, and trying my best not to shock myself running new wires.</p>
-        <p class="py-2">My name is Kirby Smith. I'm passionate about working positively with my colleagues to come to the best solutions to problems and challenges. I will do whatever it takes to learn more and hone my craft.</p>
-        <p class="py-2">Get in touch to find solutions together!</p>
-        <div class="border-b pb-4">
-            <a :href="`${publicPath}resume.pdf`" download="Kirby Smith Resume"><button class="border-2 border-zinc-200 rounded-lg px-4 py-2 my-4">Download resume</button></a>
+    <div class="bg-zinc-800 text-gray-200 px-6 min-h-screen pt-6 font-thin md:flex-row">
+        <div class="md:flex md:flex-row-reverse  md:border-b-2 border-white place-content-center place-items-center flex flex-col">
+            <div class="md:flex md:flex-col md:place-content-center md:place-items-center md:w-1/3 lg:w-1/4 md:pl-12">
+                <img src="../assets/portfolioImage.jpg" alt="Headshot image of me" class="w-72 md:w-80 rounded-xl my-2">
+                <h1 class="text-4xl font-thin md:mb-8 text-center">About Me</h1>
+            </div>
+            <div class="md:flex md:flex-col md:w-2/3 lg:w-1/2">
+                <p class="py-6">I love learning new things!</p>
+                <p class="py-2">I am always trying to think of different ways to solve problems. At the start of the pandemic, I designed, programmed, and built my own 3D printer and CNC. I spend my free time learning new code, doing house renovation projects, and trying my best not to shock myself running new wires.</p>
+                <p class="py-2">My name is Kirby Smith. I'm passionate about working positively with my colleagues to come to the best solutions to problems and challenges. I will do whatever it takes to learn more and hone my craft.</p>
+                <p class="py-2">Get in touch to find solutions together!</p>
+                <div class="border-b md:border-hidden pb-4">
+                    <a :href="`${publicPath}resume.pdf`" download="Kirby Smith Resume"><button class=" md:place-self-center border-2 border-zinc-200 rounded-lg px-4 py-2 my-4">Download resume</button></a>
+                </div>
+            </div>
         </div>
         <div class="pt-6">
             <div>
