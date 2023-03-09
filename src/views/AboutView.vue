@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-zinc-800 text-gray-200 px-6 min-h-screen pt-6 font-thin md:flex md:flex-col place-content-center place-items-center">
+    <div class="bg-zinc-800 text-gray-200 px-6 min-h-screen pt-6 font-thin md:flex md:flex-col">
         <div class="md:flex md:flex-row-reverse md:place-content-center md:place-items-center md:gap-24">
             <img src="../assets/portfolioImage.jpg" alt="Headshot image of me" class="w-5/6 md:w-1/2 rounded-xl my-8">
             <h1 class="text-4xl font-thin">About Me</h1>
