@@ -8,7 +8,7 @@
         <a href="https://github.com/kirbsmith" target="_blank"><font-awesome-icon icon="fa-brands fa-github" class="hover:text-zinc-300 duration-300  pb-1"></font-awesome-icon></a>
     </div>
   </nav>
-  <nav class="md:hidden bg-slate-500 text-zinc-100 font-light text-2xl flex flex-col">
+  <nav class="md:hidden bg-slate-500 text-zinc-100 font-light text-2xl flex flex-col font-montserrat">
     <div class="flex flex-col place-items-center pt-4">
       <p @click="showMenu = !showMenu" v-if="!showMenu" class="mb-4 border-b-2 border-slate-600 pb-2">Show Navigation</p>
       <p @click="showMenu = !showMenu" class="border-b-2 border-slate-800 pb-2" v-else>Hide Navigation</p>
@@ -48,6 +48,12 @@
                 <h4 class="py-4 font-bold">Plant Identification</h4>
                 <p class="pb-12"><span class="font-bold">HTML, CSS, JavaScript</span> - You can upload images of plants and have them identified with a confidence rating</p>
                 <a href="https://plantid.netlify.app/" target="_blank"><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
+            </div>
+            <div class="pb-12 border-b-2 border-zinc-500 mb-8 md:max-w-md">
+                <a href="https://dreamblanket.netlify.app/" target="_blank"><img src="./assets/dreamblanket.png" alt="Screenshot of Plant Identification Website" class="rounded-xl duration-300"></a>
+                <h4 class="py-4 font-bold">Dream Blanket</h4>
+                <p class="pb-12"><span class="font-bold">HTML, CSS, JavaScript</span> - Made for a nonprofit company that published a book designed to comfort chidlren and families in shelters and provide them with homemade blankets.</p>
+                <a href="https://dreamblanket.netlify.app/" target="_blank"><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
             </div>
         </div>
     </div>
