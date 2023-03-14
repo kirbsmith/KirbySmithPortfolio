@@ -11,21 +11,21 @@
                 <p class="py-2">My name is Kirby Smith. I'm passionate about working positively with my colleagues to come to the best solutions to problems and challenges. I will do whatever it takes to learn more and hone my craft.</p>
                 <p class="py-2">Get in touch to find solutions together</p>
                 <div class="border-b md:border-hidden pb-4">
-                    <a :href="`${publicPath}resume.pdf`" download="Kirby Smith Resume"><button class=" md:place-self-center border-2 border-zinc-200 rounded-lg px-4 py-2 my-4">Download resume</button></a>
+                    <a :href="`${publicPath}resume.pdf`" download="Kirby Smith Resume"><button class=" md:place-self-center border-2 border-zinc-200 rounded-lg px-4 py-2 my-4 hover:bg-zinc-300 hover:text-slate-800 duration-300"><font-awesome-icon icon="fa-angles-down" class="pr-3 text-xl duration-1000"></font-awesome-icon>Download resume</button></a>
                 </div>
             </div>
         </div>
         <div class="pt-6 flex gap-8 flex-col place-items-center">
             <div class="text-center">
-                <h3 class="text-lg underline pb-3 font-light">Web Development</h3>
+                <h3 class="text-lg underline pb-3 font-light"><font-awesome-icon icon="fa-arrows-spin" class="pr-3 text-xl"></font-awesome-icon>Web Development</h3>
                 <p class="pb-4 font-thin">Front-end and back-end web development through the full lifecycle of a project</p>
             </div>
             <div class="text-center">
-                <h3 class="text-lg underline pb-3 font-light">UI/UX Design</h3>
+                <h3 class="text-lg underline pb-3 font-light"><font-awesome-icon icon="fa-compass-drafting" class="pr-3 text-xl"></font-awesome-icon>UI/UX Design</h3>
                 <p class="pb-4 font-thin">Functional and efficient design decisions that create easy-to-navigate websites that follow accessibility rules and guidelines</p>
             </div>
             <div class="text-center">
-                <h3 class="text-lg underline pb-3 font-light">Responsive Design</h3>
+                <h3 class="text-lg underline pb-3 font-light"><font-awesome-icon icon="fa-mobile-screen-button" class="pr-3 text-xl"></font-awesome-icon>Responsive Design</h3>
                 <p class="pb-4 font-thin">Websites that run beautifully on all devices and platforms with functionally aesthetic page structure</p>
             </div>
         </div>

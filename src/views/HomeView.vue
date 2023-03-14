@@ -4,7 +4,7 @@
         <div class="flex justify-center">
             <img src="../assets/portfolioImage.jpg" alt="Headshot image of me" class="w-5/6 rounded-xl my-8">
         </div>
-        <div class="flex flex-col gap-10 mb-4 font-montserrat font-light">
+        <div class="flex flex-col gap-10 mb-4 font-montserrat font-light lg:w-1/3">
             <h1 class="text-3xl">Hi, I'm Kirby, an Astronomy Teacher Turned Software Engineer</h1>
             <h3 class="text-xl">Want an efficient engineer who can tell you what happens if you fall into a black hole?</h3>
             <router-link to="/about" class="border-2 border-zinc-200 hover:border-zinc-900 hover:text-zinc-800 hover:bg-zinc-200 mb-12 text-lg py-2 text-center rounded-lg duration-300">Let me introduce myself</router-link>

@@ -22,39 +22,59 @@
     </div>
   </nav>
   <router-view/>
-  <div class="flex flex-col flex-wrap px-4 pt-2 bg-zinc-800 text-gray-200 font-thin">
-        <h2 class="text-2xl font-semibold border-b border-zinc-400 pb-4 mb-8">Latest Projects</h2>
-        <div class="md:flex md:flex-row md:gap-8 md:flex-wrap md:place-items-center md:place-content-center">
-            <div class="pb-12 border-b-2 border-zinc-500 mb-8 md:max-w-md">
-                <a href="https://zengineschallengekirby.netlify.app/" target="_blank"><img src="./assets/hackernews.png" alt="Screenshot of Hacker News Clone Website" class="rounded-xl"></a>
-                <h4 class="py-4 font-bold">Hacker News Clone</h4>
-                <p class="pb-12"><span class="font-bold">Vue 3, TypeScript, Node.js</span> - Clone of Hacker News that pulls the top 50 stories at the time of page load</p>
-                <a href="https://zengineschallengekirby.netlify.app/" target="_blank" ><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
-            </div>
-            <div class="pb-12 border-b-2 border-zinc-500 mb-8 md:max-w-md">
-                <a href="https://capecodtelescope.netlify.app/" target="_blank"><img src="./assets/capecodtelescope.png" alt="Screenshot of Cape Cod Telescope Website" class="rounded-xl"></a>
-                <h4 class="py-4 font-bold">Cape Cod Telescope</h4>
-                <p class="pb-12"><span class="font-bold">HTML, CSS, JavaScript, PHP</span> - Ever wanted to take your own astrophotos to show your friends? </p>
-                <a href="https://capecodtelescope.netlify.app/" target="_blank"><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
-            </div>
-            <div class="pb-12 border-b-2 border-zinc-500 mb-8 md:max-w-md">
-                <a href="https://mtgcards.netlify.app/" target="_blank"><img src="./assets/mtggame.png" alt="Screenshot of Magic: the Gathering Website" class="rounded-xl"></a>
-                <h4 class="py-4 font-bold">Magic: the Gathering Card Game</h4>
-                <p class="pb-12"><span class="font-bold">HTML, CSS, JavaScript</span> - Making playing MtG easier over zoom so you can track your opponent's cards</p>
-                <a href="https://mtgcards.netlify.app/" target="_blank"><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
-            </div>
-            <div class="pb-12 border-b-2 border-zinc-500 mb-8 md:max-w-md">
-                <a href="https://plantid.netlify.app/" target="_blank"><img src="./assets/plantid.png" alt="Screenshot of Plant Identification Website" class="rounded-xl duration-300"></a>
-                <h4 class="py-4 font-bold">Plant Identification</h4>
-                <p class="pb-12"><span class="font-bold">HTML, CSS, JavaScript</span> - You can upload images of plants and have them identified with a confidence rating</p>
-                <a href="https://plantid.netlify.app/" target="_blank"><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
-            </div>
-            <div class="pb-12 border-b-2 border-zinc-500 mb-8 md:max-w-md">
-                <a href="https://dreamblanket.netlify.app/" target="_blank"><img src="./assets/dreamblanket.png" alt="Screenshot of Plant Identification Website" class="rounded-xl duration-300"></a>
-                <h4 class="py-4 font-bold">Dream Blanket</h4>
-                <p class="pb-12"><span class="font-bold">HTML, CSS, JavaScript</span> - Made for a nonprofit company that published a book designed to comfort chidlren and families in shelters and provide them with homemade blankets.</p>
-                <a href="https://dreamblanket.netlify.app/" target="_blank"><button class="rounded-lg border-2 px-6 py-2 border-white">Visit</button></a>
-            </div>
+  <div class="flex flex-col px-4 pt-2 bg-zinc-800 text-gray-200 font-thin">
+        <h2 class="text-2xl font-semibold border-b border-zinc-400 pb-4 mb-8 lg:pl-24">Latest Projects</h2>
+        <div class="flex flex-row flex-wrap bg-zinc-800 md:place-content-center">
+          <div class="md:w-96 md:h-96 px-8 pb-8 flex flex-col border-b-2 border-zinc-300 mb-4">
+            <a href="https://zengineschallengekirby.netlify.app/" target="_blank">
+              <img src="./assets/hackernews.png" alt="" class="rounded-xl md:h-42">
+            </a>
+            <h3 class="font-bold py-3">Hacker News Clone</h3>
+            <p class="pb-6"><span class="font-semibold">Vue 3, TypeScript, Node.js, TailwindCSS</span> - Hacker News clone that pulls the top 50 stories at the time of page load</p>
+            <a href="https://zengineschallengekirby.netlify.app/" target="_blank">
+              <button class="border-2 border-white rounded-lg px-3 py-1 hover:bg-zinc-300 hover:text-slate-800 duration-300">Visit</button>
+            </a>
+          </div>
+          <div class="md:w-96 md:h-96 px-8 pb-8 flex flex-col border-b-2 border-zinc-300 mb-4">
+            <a href="https://capecodtelescope.netlify.app/" target="_blank">
+              <img src="./assets/capecodtelescope.png" alt="" class="rounded-xl md:h-42 md:mb-2">
+            </a>
+            <h3 class="font-bold py-3">Cape Cod Telescope</h3>
+            <p class="pb-6"><span class="font-semibold">HTML, CSS, JavaScript, PHP</span> - Ever wanted to take your own astrophotos to show your friends?</p>
+            <a href="https://capecodtelescope.netlify.app/" target="_blank">
+              <button class="border-2 border-white rounded-lg px-3 py-1 hover:bg-zinc-300 hover:text-slate-800 duration-300">Visit</button>
+            </a>
+          </div>
+          <div class="md:w-96 md:h-96 px-8 pb-8 flex flex-col border-b-2 border-zinc-300 mb-4">
+            <a href="https://mtgcards.netlify.app/" target="_blank">
+              <img src="./assets/mtggame.png" alt="" class="rounded-xl md:h-42">
+            </a>
+            <h3 class="font-bold py-3">Magic: the Gathering Card Game</h3>
+            <p class="pb-6"><span class="font-semibold">HTML, CSS, JavaScript</span> - Making playing MtG easier over Zoom so you can track your opponent's cards</p>
+            <a href="https://mtgcards.netlify.app/" target="_blank">
+              <button class="border-2 border-white rounded-lg px-3 py-1 hover:bg-zinc-300 hover:text-slate-800 duration-300">Visit</button>
+            </a>
+          </div>
+          <div class="md:w-96 md:h-96 px-8 pb-8 flex flex-col border-b-2 border-zinc-300 mb-4">
+            <a href="https://plantid.netlify.app/" target="_blank">
+              <img src="./assets/plantid.png" alt="" class="rounded-xl md:h-42 md:mb-6">
+            </a>
+            <h3 class="font-bold py-3">Plant Identification</h3>
+            <p class="pb-6"><span class="font-semibold">HTML, CSS, JavaScript</span> - You can upload images of plants and have them identified with a confidence rating</p>
+            <a href="https://plantid.netlify.app/" target="_blank">
+              <button class="border-2 border-white rounded-lg px-3 py-1 hover:bg-zinc-300 hover:text-slate-800 duration-300">Visit</button>
+            </a>
+          </div>
+          <div class="md:w-96 md:h-96 px-8 pb-8 flex flex-col border-b-2 border-zinc-300 mb-4">
+            <a href="https://thedreamblanket.netlify.app/" target="_blank">
+              <img src="./assets/dreamblanket.png" alt="" class="rounded-xl md:h-42">
+            </a>
+            <h3 class="font-bold py-3">Dream Blanket</h3>
+            <p class="pb-6"><span class="font-semibold">HTML, CSS</span> - Made for a nonprofit company that published a book designed to comfort children and families in shelters and provide them with homemade blankets.</p>
+            <a href="https://thedreamblanket.netlify.app/" target="_blank">
+              <button class="border-2 border-white rounded-lg px-3 py-1 hover:bg-zinc-300 hover:text-slate-800 duration-300">Visit</button>
+            </a>
+          </div>
         </div>
     </div>
 </template>
